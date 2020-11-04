@@ -588,6 +588,7 @@ font-family: 'ヒラギノ角ゴ StdN','Hiragino Kaku Gothic StdN',sans-serif;
   font-weight:bold;
   color: black;
   font-family: 'Hannotate TC','ヒラギノ角ゴシック','Hiragino Sans',sans-serif;
+  border-bottom: 1px solid #1E90FF;
 }
 
 
@@ -602,26 +603,25 @@ font-family: 'ヒラギノ角ゴ StdN','Hiragino Kaku Gothic StdN',sans-serif;
 }
 
 .isiki{
-  position: absolute;
-  top:22%;
-  left:0;
+text-align: center;
+margin: 30px 0;
 }
 
 .isiki h3{
   font-size: 20px;
   color:black;
   font-weight:bold;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   font-family: 'Hannotate TC','ヒラギノ角ゴシック','Hiragino Sans',sans-serif;
+ background-color: white;
+ padding:20px 20px;
+ display: inline-block;
 }
 
 .isiki p{
+  font-size: 18px;
   color:black;
-  border: 1px solid black;
-  border-radius: 50px 50px;
-  padding:20px 20px;
   line-height: 25px;
-  background-color: white;
   font-family: 'Hannotate TC','ヒラギノ角ゴシック','Hiragino Sans',sans-serif;
   font-weight: bold;
 }
@@ -631,14 +631,14 @@ font-family: 'ヒラギノ角ゴ StdN','Hiragino Kaku Gothic StdN',sans-serif;
   transform: rotate(45deg);
   position: absolute;
   top:35%;
-  left:56%;
+  left:45%;
   z-index:1;
 }
 
 .high-skill{
   position: absolute;
-  top:41%;
-  left:45%;
+  top:42%;
+  left:-5%;
 }
 
 .high-skill h3{
@@ -661,19 +661,19 @@ font-family: 'ヒラギノ角ゴ StdN','Hiragino Kaku Gothic StdN',sans-serif;
   font-family: 'Hannotate TC','ヒラギノ角ゴシック','Hiragino Sans',sans-serif;
 }
 
-.yajirusi2{
+.yajirusi{
   font-size: 50px;
-  transform: rotate(125deg);
+  transform: rotate(55deg);
   position: absolute;
-  top:67%;
-  left:45%;
+  top:66%;
+  left:44%;
   z-index:1;
 }
 
 .kekka{
   position: absolute;
-  top:68%;
-  left:0;
+  top:66%;
+  left:48%;
 }
 
 .kekka h3{
@@ -707,42 +707,33 @@ font-family: 'ヒラギノ角ゴ StdN','Hiragino Kaku Gothic StdN',sans-serif;
 }
 
 .isiki2{
-  position: absolute;
-  top:32%;
-  right:25%;
+  text-align: center;
+  margin: 30px 0;
 }
 
 .isiki2 h3{
   font-size: 20px;
   color:black;
   font-weight:bold;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   font-family: 'Hannotate TC','ヒラギノ角ゴシック','Hiragino Sans',sans-serif;
+ background-color: white;
+ padding:20px 20px;
+ display: inline-block;
 }
 
 .isiki2 p{
+  font-size: 18px;
   color:black;
-  border: 1px solid black;
-  border-radius: 50px 50px;
-  padding:20px 20px;
   line-height: 25px;
-  background-color: white;
   font-family: 'Hannotate TC','ヒラギノ角ゴシック','Hiragino Sans',sans-serif;
-}
-
-.yajirusi3{
-  font-size: 50px;
-  transform: rotate(45deg);
-  position: absolute;
-  top:45%;
-  right:25%;
-  z-index:1;
+  font-weight: bold;
 }
 
 .high-skill2{
   position: absolute;
-  top:51%;
-  left:47%;
+  top:50%;
+  left:-5%;
 }
 
 .high-skill2 h3{
@@ -762,11 +753,12 @@ font-family: 'ヒラギノ角ゴ StdN','Hiragino Kaku Gothic StdN',sans-serif;
   line-height: 25px;
   background-color: white;
   font-family: 'Hannotate TC','ヒラギノ角ゴシック','Hiragino Sans',sans-serif;
+  font-weight: bold;
 }
 
-.yajirusi4{
+.yajirusi2{
   font-size: 50px;
-  transform: rotate(125deg);
+  transform: rotate(55deg);
   position: absolute;
   top:75%;
   right:46%;
@@ -776,7 +768,7 @@ font-family: 'ヒラギノ角ゴ StdN','Hiragino Kaku Gothic StdN',sans-serif;
 .kekka2{
   position: absolute;
   top:73%;
-  right:50%;
+  right:-10%;
 }
 
 .kekka2 h3{
@@ -796,6 +788,8 @@ font-family: 'ヒラギノ角ゴ StdN','Hiragino Kaku Gothic StdN',sans-serif;
   line-height: 25px;
   background-color: white;
   font-family: 'Hannotate TC','ヒラギノ角ゴシック','Hiragino Sans',sans-serif;
+  font-weight: bold;
+
 }
 
 
@@ -803,7 +797,7 @@ font-family: 'ヒラギノ角ゴ StdN','Hiragino Kaku Gothic StdN',sans-serif;
 @media screen and (max-width:798px){
   .skill{
   display:block;
-  height:2250px;
+  height:2400px;
   margin: 100px 0;
   }
 
@@ -812,7 +806,7 @@ font-family: 'ヒラギノ角ゴ StdN','Hiragino Kaku Gothic StdN',sans-serif;
   }
 
   .skill-list h2{
-    font-size: 15px;
+    font-size: 16px;
     margin-bottom: 30px;
   }
 
@@ -826,6 +820,14 @@ font-family: 'ヒラギノ角ゴ StdN','Hiragino Kaku Gothic StdN',sans-serif;
 
   .isiki{
     position:static;
+  }
+
+  .isiki h3{
+    font-size: 18px;
+  }
+
+  .isiki p{
+    font-size: 18px;
   }
 
   .yajirusi{
