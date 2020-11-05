@@ -3,7 +3,7 @@ $(function(){
   const profill =$('.profill').offset().top;
   const skill=$('.skill').offset().top;
   const seisaku =$('.seisaku').offset().top;
-  //const contacts =$('.contact').offset().top;
+  const contacts =$('.contact').offset().top;
 
 //格メニュー項目押した時の、処理
 $('.header-list li').on('click',function(){
@@ -28,11 +28,11 @@ else if (click=="seisaku") {
   $(text).text('MENU');
 
 }
-//else if (click=="contact") {
-  //$(window).scrollTop(contacts);
-  //$(remove).removeClass('is-active');
-  //$(text).text('MENU');
-//}
+else if (click=="contact") {
+  $(window).scrollTop(contacts);
+  $(remove).removeClass('is-active');
+  $(text).text('MENU');
+}
 });
 
 
