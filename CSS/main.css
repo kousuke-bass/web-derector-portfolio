@@ -274,7 +274,8 @@ position: static;
 /*TOP*/
 .top{
   width:100%;
-  margin-bottom:50px;
+  height:500px;
+  margin-bottom:80px;
   position: relative;
   top:0;
   left:0;
@@ -319,7 +320,7 @@ font-family: 'Noteworthy',sans-serif;
 }
 
 .back-image{
-  width:1200px;
+  width:600px;
   height:450px;
   background-image:url("../image/macbook1697_TP_V.png");
   background-position:center;
@@ -327,7 +328,7 @@ font-family: 'Noteworthy',sans-serif;
   background-size:contain;
   position: absolute;
   top:-5%;
-  left:0%;
+  left:25%;
   z-index: -100;
 }
 
@@ -371,7 +372,7 @@ font-family: 'Noteworthy',sans-serif;
 /*profill*/
 .profill{
   width:100%;
-  height:400px;
+  height:500px;
   text-align: center;
   margin: 50px 0;
   position: relative;
@@ -395,7 +396,7 @@ transition:all 0.9s 	ease;
 
 
 .main-image{
- background-image:url("../image/IMG_6525.png");
+ background-image:url("../image/gahag-0103196580-1.png");
  background-position:bottom;
  background-repeat: no-repeat;
  background-size: cover;
@@ -435,7 +436,7 @@ flex-wrap: nowrap;
 align-items: center;
 margin:20px 0px;
 position: absolute;
-bottom:10%;
+bottom:30%;
 left:4%;
 }
 
@@ -458,7 +459,7 @@ font-family: 'TsukuARdGothic-Regular',sans-serif;
 display:block;
 margin:0 20px;
 position: absolute;
-bottom:10%;
+bottom:30%;
 left:20%;
 }
 
@@ -471,7 +472,7 @@ font-family: 'TsukuARdGothic-Regular',sans-serif;
 }
 
 .profill-list a{
-  color:#1E90FF;
+  color:#0000CD;
 }
 
 
@@ -502,9 +503,9 @@ font-family: 'TsukuARdGothic-Regular',sans-serif;
 
   .main-image{
   width:100%;
-  height:650px;
+  height:600px;
    position:absolute;
-   top:-10%;
+   top:-5%;
   }
 
   /* sns*/
@@ -538,7 +539,7 @@ font-family: 'TsukuARdGothic-Regular',sans-serif;
 }
 
 .main-image2{
- background-image:url("../image/IMG_6525.png");
+ background-image:url("../image/gahag-0058988817-1.png");
  background-position:bottom;
  background-repeat: no-repeat;
  background-size: cover;
@@ -577,7 +578,7 @@ width:48%;
 .skill{
 display: flex;
 justify-content:space-around;
-height:1150px;
+height:1300px;
 opacity: 0;
 }
 
@@ -597,7 +598,7 @@ transition:all 0.9s 	ease;
   border:3px solid black;
   padding: 20px 30px;
   border-radius: 30% 30%;
-font-family: 'ヒラギノ角ゴ StdN','Hiragino Kaku Gothic StdN',sans-serif;
+font-family: 'Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3','HanziPen SC',sans-serif;
   font-size:20px;
   font-weight: bold;
   margin:40px 0;
@@ -609,7 +610,6 @@ font-family: 'ヒラギノ角ゴ StdN','Hiragino Kaku Gothic StdN',sans-serif;
   font-size: 22px;
   font-weight:bold;
   color: black;
-  font-family: 'Hannotate TC','ヒラギノ角ゴシック','Hiragino Sans',sans-serif;
   border-bottom: 2px solid #1E90FF;
 }
 
@@ -632,7 +632,7 @@ margin: 30px 0;
 
 .isiki h3{
   font-size: 20px;
-  color:black;
+  color:#0000CD;
   font-weight:bold;
   margin-bottom: 20px;
   font-family: 'Hannotate TC','ヒラギノ角ゴシック','Hiragino Sans',sans-serif;
@@ -645,28 +645,20 @@ margin: 30px 0;
   font-size: 18px;
   color:black;
   line-height: 25px;
-font-family: 'Kaiti SC','ヒラギノ明朝 ProN','Hiragino Mincho ProN',sans-serif;
+font-family: 'Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',sans-serif;
 font-weight: bold;
 }
 
-.yajirusi{
-  font-size: 50px;
-  transform: rotate(45deg);
-  position: absolute;
-  top:35%;
-  left:45%;
-  z-index:1;
-}
 
 .high-skill{
   position: absolute;
-  top:38%;
+  top:33%;
   left:5%;
 }
 
 .high-skill h3{
   font-size: 20px;
-  color:black;
+  color:#0000CD;
   font-weight:bold;
   margin-bottom: 10px;
   font-family: 'Hannotate TC','ヒラギノ角ゴシック','Hiragino Sans',sans-serif;
@@ -684,37 +676,43 @@ font-weight: bold;
 font-family: 'Kaiti SC','ヒラギノ明朝 ProN','Hiragino Mincho ProN',sans-serif;
 }
 
+.high-skill p span{
+  color:red;
+  font-size: 18px;
+}
+
 .yajirusi{
   font-size: 50px;
   transform: rotate(125deg);
   position: absolute;
-  top:62%;
-  left:50%;
+  top:55%;
+  left:60%;
   z-index:1;
 }
 
 .kekka{
   position: absolute;
-  top:68%;
+  top:60%;
   left:15%;
 }
 
 .kekka h3{
   font-size: 20px;
-  color:black;
+  color:#0000CD;
   font-weight:bold;
   margin-bottom: 10px;
   font-family: 'Hannotate TC','ヒラギノ角ゴシック','Hiragino Sans',sans-serif;
 }
 
 .kekka p{
-  width:300px;
+  width:400px;
   color:black;
   border: 1px solid black;
   border-radius: 50px 50px;
   padding:20px 20px;
   line-height: 25px;
   background-color: white;
+  font-size: 16px;
   font-weight: bold;
 font-family: 'Kaiti SC','ヒラギノ明朝 ProN','Hiragino Mincho ProN',sans-serif;
 }
@@ -736,7 +734,7 @@ font-family: 'Kaiti SC','ヒラギノ明朝 ProN','Hiragino Mincho ProN',sans-se
 
 .isiki2 h3{
   font-size: 20px;
-  color:black;
+  color:#0000CD;
   font-weight:bold;
   margin-bottom: 20px;
   font-family: 'Hannotate TC','ヒラギノ角ゴシック','Hiragino Sans',sans-serif;
@@ -749,19 +747,19 @@ font-family: 'Kaiti SC','ヒラギノ明朝 ProN','Hiragino Mincho ProN',sans-se
   font-size: 18px;
   color:black;
   line-height: 25px;
-font-family: 'Kaiti SC','ヒラギノ明朝 ProN','Hiragino Mincho ProN',sans-serif;
+font-family: 'Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',sans-serif;
   font-weight: bold;
 }
 
 .high-skill2{
   position: absolute;
-  top:45%;
+  top:40%;
   left:7%;
 }
 
 .high-skill2 h3{
   font-size: 20px;
-  color:black;
+  color:#0000CD;
   font-weight:bold;
   margin-bottom: 10px;
   font-family: 'Hannotate TC','ヒラギノ角ゴシック','Hiragino Sans',sans-serif;
@@ -779,24 +777,29 @@ font-family: 'Kaiti SC','ヒラギノ明朝 ProN','Hiragino Mincho ProN',sans-se
   font-weight: bold;
 }
 
+.high-skill2 p span{
+  color:red;
+  font-size: 18px;
+}
+
 .yajirusi2{
   font-size: 50px;
   transform: rotate(125deg);
   position: absolute;
-  top:75%;
+  top:67%;
   right:40%;
   z-index:1;
 }
 
 .kekka2{
   position: absolute;
-  top:80%;
+  top:70%;
   right:14%;
 }
 
 .kekka2 h3{
   font-size: 20px;
-  color:black;
+  color:#0000CD;
   font-weight:bold;
   margin-bottom: 10px;
   font-family: 'Hannotate TC','ヒラギノ角ゴシック','Hiragino Sans',sans-serif;
@@ -812,6 +815,7 @@ font-family: 'Kaiti SC','ヒラギノ明朝 ProN','Hiragino Mincho ProN',sans-se
   background-color: white;
 font-family: 'Kaiti SC','ヒラギノ明朝 ProN','Hiragino Mincho ProN',sans-serif;
   font-weight: bold;
+  font-size: 16px;
 
 }
 
@@ -820,7 +824,7 @@ font-family: 'Kaiti SC','ヒラギノ明朝 ProN','Hiragino Mincho ProN',sans-se
 @media screen and (max-width:798px){
   .skill{
   display:block;
-  height:2400px;
+  height:2550px;
   margin: 100px 0;
   }
 
