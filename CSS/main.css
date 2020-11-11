@@ -639,14 +639,13 @@ transition:all 0.9s 	ease;
 }
 
 .skill-list h1{
-  display: inline-block;
   border:3px solid black;
   padding: 20px 30px;
   border-radius: 30% 30%;
 font-family: 'Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3','HanziPen SC',sans-serif;
   font-size:20px;
   font-weight: bold;
-  margin:40px 0;
+  margin:40px;
   background-color: #B0C4DE;
   color:black;
 }
@@ -877,7 +876,11 @@ font-family: 'Kaiti SC','ヒラギノ明朝 ProN','Hiragino Mincho ProN',sans-se
     width:100%;
   }
 
-  .skill-list h1{
+.skill-list h1{
+  font-size:14px;
+}
+
+  .skill-list h2{
     font-size: 16px;
     margin-bottom: 30px;
   }
