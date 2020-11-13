@@ -4,6 +4,7 @@ $(function(){
   const skill=$('.skill').offset().top;
   const seisaku =$('.seisaku').offset().top;
   const contacts =$('.contact').offset().top;
+  const maind=$('.maind').offset().top;
 
 //格メニュー項目押した時の、処理
 $('.header-list li').on('click',function(){
@@ -33,6 +34,11 @@ else if (click=="contact") {
   $(remove).removeClass('is-active');
   $(text).text('MENU');
 }
+else if (click=="maind") {
+  $(window).scrollTop(maind);
+  $(remove).removeClass('is-active');
+  $(text).text('MENU');
+}
 });
 
 
@@ -58,25 +64,8 @@ $('.header-list').on('click',function(){
     $('.menu-trigger p').text('MENU');
   }
 });
-//動画一覧表示
-$('.work-show').on('click',function(){
-  $('.work-show').toggleClass('active');
-  $('.modal,.close-modal').toggleClass('active');
-});
 
-$('.close-modal,.modal').on('click',function(){
-  let show_down =$('.work-show,.modal,.close-modal');
-  show_down.removeClass('active');
-});
 
-//経歴表示
-$('.keireki-btn').on('click',function(){
-  $('.keireki').toggleClass('active');
-});
-$('.keireki').on('click',function(){
-  $('.keireki').removeClass('active');
-
-});
 
 
 //コンテンツを表示
@@ -112,11 +101,4 @@ $(window).scroll(function (){
     });
 
 
-
-  //ローディング
-    $(window).on("load",function(){
-    setTimeout(function(){
-      $('.loader').fadeOut();
-    },300)
-  });
   });
