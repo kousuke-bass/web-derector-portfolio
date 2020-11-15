@@ -715,7 +715,8 @@ color: red;
   }
 
   .maind h1{
-    font-size:25px;
+    font-size:22px;
+    margin: 40px 0;
   }
 
   .maind-main figure{
@@ -838,17 +839,17 @@ font-family: 'Kaiti SC','ヒラギノ明朝 ProN','Hiragino Mincho ProN',sans-se
 
 .yajirusi{
   font-size: 50px;
-  transform: rotate(125deg);
+  transform: rotate(90deg);
   position: absolute;
-  top:55%;
-  left:60%;
+  top:54%;
+  left:45%;
   z-index:1;
 }
 
 .kekka{
   position: absolute;
   top:60%;
-  left:15%;
+  left:10%;
 }
 
 .kekka h3{
@@ -939,17 +940,17 @@ font-family: 'Kaiti SC','ヒラギノ明朝 ProN','Hiragino Mincho ProN',sans-se
 
 .yajirusi2{
   font-size: 50px;
-  transform: rotate(125deg);
+  transform: rotate(90deg);
   position: absolute;
-  top:67%;
-  right:40%;
+  top:64%;
+  right:43%;
   z-index:1;
 }
 
 .kekka2{
   position: absolute;
-  top:70%;
-  right:14%;
+  top:69%;
+  right:5%;
 }
 
 .kekka2 h3{
